@@ -1,4 +1,4 @@
-General / All Pages*/
+/*General / All Pages*/
 /* Add a black background color to the top navigation */
 
 
@@ -6,31 +6,27 @@ General / All Pages*/
 *{
     box-sizing: border-box;
 
-
-}
-
-
-a {
-    text-decoration: none;
 }
 
 body {
         background-image: url("https://i.pinimg.com/236x/e7/56/a0/e756a00a1ec23a6f6b95dad00040455f--swirl-pattern-pattern-texture.jpg");
 
 }
-          
-                          
+                                    
 
-                                    /*NAVBAR*/
+
 
 .topnav {
-    background-color: #333;
-    overflow: hidden;
+    
 /*    margin-left: 40px;
     margin-right: 40px;*/
-    padding-right: 40px;
+    padding: auto;
     height: 70px;
 
+}
+
+#headercontent{
+    background-color: #333;
 }
 
 /* Style the links inside the navigation bar */
@@ -64,21 +60,21 @@ body {
     width: auto;
     font-size: 25px;
     font-weight: bold;
-    height: auto;
-    margin-left: 40px;
+    height: 70px;
 }
 
 
+#contacttitle {
+    font-size: 25px;
+    color: #009999; 
+    font-weight: bold;
+    
+}
 
 
-                        /*BODY*/
-
-
-                        /*FORM*/
-
-
-
-
+#fullbod {
+    background-image: url("https://i.pinimg.com/236x/e7/56/a0/e756a00a1ec23a6f6b95dad00040455f--swirl-pattern-pattern-texture.jpg");
+}
 
 .FormContainer {
     width:40%;
@@ -87,6 +83,18 @@ body {
     margin: 20px 20px 20px 40px;
     padding: 60px;
     float: left;
+}
+
+.SocialConnect {
+    width: auto;
+    background-color: white;
+    padding: 60px;
+    float: left;
+    font-size: 20px;
+    color: #009999; 
+    font-weight: bold;   
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 
@@ -130,132 +138,24 @@ input[type=submit]:hover {
 }
 
 
-                        /*SOCIAL*/
-
-.SocialConnect {
-    width: 25%;
-    border-radius: 5px;
-    background-color: white;
-    margin: 100px;
-    padding: 50px;
-    float: left;
-    font-size: 30px;
-    color: #009999; 
-    font-weight: bold;
-    margin-top: 20px;
-    margin-left: 50px; 
-    text-align: center;  
-}
-
-#contacttitle {
-    font-size: 45px;
-    color: #009999; 
-    font-weight: bold;
-    
-}
-
-#picformat img {
-    width:50px;
-    height:50px;
-    margin-right: 5px;
-}
-
-
-                /*ABOUT*/
-
-.abouttext p {
-    font-size: 18px;
-    text-align: justify;
-    line-height: 150%;
-
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.profilepic {
-    margin-right: 10px;
-    float: left;
-    width: 200px;
-    max-width: 100%;
-    height: auto;
-
-}
-
-
-.pimages img {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    float: left;
-}
-
-#biopic{
-    width: 100%;
-}
-
-
-
-
-
-/*PORTFOLIO*/
-
-
-.portpics {
-    float: left;
-    margin-bottom: 20px;
-    width: 47%;
-    position: relative;
-}
-
-
-.portpics p {
-    background-color: teal;
-    width: 100%;
-    color: white;
-    position: absolute;
-    bottom: 15px;
-    text-align: center;
-}
-
-
-
-#imageholder {
-    margin-left: 35px;
-}
-/*every odd element inside the class portpics inside the id imageholder should have a margin to the right of 10px*/
-#imageholder .portpics:nth-child(odd) {
-    margin-right: 10px;
-}
-
-#imageholder .portpics:nth-child(even) {
-    margin-left: 10px;
-}
-
-.portimage {
-    width: 100%;
-}
-                                /*FOOTER*/
-
 footer {
-
+    padding: 20px;
     color: white;
-    clear: both;
-    border-top: 7px solid #009999;
+    background-color: auto;
+    clear: left;
+    height: auto;
+   
+}
+
+.botnav {
     background-color: #333;
-    height: 100px;
-    margin-top: 30px;
-
-
+    overflow: hidden;
+    padding: 35px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+/*    margin-left: 40px;
+    margin-right: 40px;*/
 }
 
-#copyright{
-    margin-top: 40px;
-}
-
-
-/********
+/*********/
